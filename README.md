@@ -55,6 +55,19 @@ Before starting, ensure you have the following installed:
 
     Create a .env file in the root directory based on .env.example and configure your MongoDB connection URL.
 
+Setting Up
+
+## Set up environment variables:
+
+Create a .env file in the root directory based on .env.example and configure your MongoDB connection URL:
+
+plaintext
+
+    ```PORT=5000
+    DATABASE_URL=mongodb+srv://your-username:your-password@your-cluster.mongodb.net/your-database?retryWrites=true&w=majority
+    NODE_ENV=development
+    ```
+
 ## Starting the Server
 
     Start the server:
